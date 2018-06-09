@@ -23,7 +23,7 @@ public class Python extends CommandInterpreter {
 
     @Override
     public String[] buildCommandLine(FilePath script) {
-        return new String[]{"python", script.getRemote()};
+        return new String[]{"python3", script.getRemote()};
     }
 
     @Override
